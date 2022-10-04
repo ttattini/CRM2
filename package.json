@@ -1,0 +1,20 @@
+{
+  "name": "Ella-CRM",
+  "version": "1.1.6",
+  "description": "Ella CRM",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "Tanner Tattini",
+  "license": "DDw-1.1",
+  "devDependencies": {
+    "electron": "15.2.0",
+    "electron-builder": "22.4.1"
+  },
+  "build": {
+    "mac": {
+      "category": "public.app-category.utilities"
+    }
+  }
+}
